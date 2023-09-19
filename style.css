@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1501854140801-50d01698950b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5NTA4NTA3OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.container{ 
+    background-color: #000000;
+    opacity: .8;
+    border-radius: 2.5rem;
+    padding: 2rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 2.5rem;
+
+    font-size: 2rem;
+    background-color: #7c7c7c2b;
+    color: white;
+
+    width: calc(100% - 70px);
+    
+}
+
+.button-search{
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+    padding: .5rem;
+    background-color: #7c7c7c2b;
+
+    cursor: pointer;
+    float: right;
+}
+
+.img-search{
+    width: 3rem; 
+}
